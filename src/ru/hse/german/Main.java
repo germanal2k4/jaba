@@ -1,3 +1,5 @@
+package ru.hse.german;
+
 import java.util.Scanner;
 
 public class Main {
@@ -15,11 +17,9 @@ public class Main {
                 if(scanner.hasNextDouble()){
                     double ans = scanner.nextDouble();
                     System.out.println(ans / 2.54);
-                    System.exit(0);
                 }
                 else{
                     System.out.println("Вы ввели не число");
-                    System.exit(0);
                 }
             }
             else{
@@ -27,11 +27,9 @@ public class Main {
                 if(scanner.hasNextDouble()){
                     double ans = scanner.nextDouble();
                     System.out.println(ans * 2.54);
-                    System.exit(0);
                 }
                 else{
                     System.out.println("Вы ввели не число");
-                    System.exit(0);
                 }
             }
         }
